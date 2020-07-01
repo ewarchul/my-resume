@@ -1,0 +1,6 @@
+*.log
+*.aux
+*.out
+*.sty
+.DS_Store
+
