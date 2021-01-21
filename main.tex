@@ -1,0 +1,29 @@
+\documentclass[10pt,a4paper,sans]{moderncv} 
+\moderncvstyle{classic}                    
+\moderncvcolor{purple}                    
+\usepackage[utf8]{inputenc}              
+\usepackage{expl3}
+\usepackage{multicols}
+\expandafter\def\csname ver@l3regex.sty\endcsname{}
+\usepackage[scale=0.77]{geometry}
+\setlength{\hintscolumnwidth}{3cm}     
+
+
+\name{Eryk}{Warchulski}
+\address{github.com/ewarchul \\ + 48 697 291 468 \\ ewarchul@gmail.com}{}
+   
+
+\begin{document}
+
+\makecvtitle
+
+\input{tex/bio}
+\input{tex/exp}
+\input{tex/projects}
+\input{tex/technologies}
+\newpage
+\input{tex/misc}
+
+
+\clearpage
+\end{document}
