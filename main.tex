@@ -3,7 +3,7 @@
 \moderncvcolor{purple}                    
 \usepackage[utf8]{inputenc}              
 \usepackage{expl3}
-\usepackage{multicols}
+\usepackage{./styles/multicol}
 \expandafter\def\csname ver@l3regex.sty\endcsname{}
 \usepackage[scale=0.77]{geometry}
 \setlength{\hintscolumnwidth}{3cm}     
@@ -19,11 +19,26 @@
 
 \input{tex/bio}
 \input{tex/exp}
-\input{tex/projects}
 \input{tex/technologies}
-\newpage
+\input{tex/projects}
 \input{tex/misc}
 
+\vspace{8cm}
+
+{
+  \footnotesize
+\textbf{I} agree to the processing of personal data provided in this document for
+realising the recruitment process pursuant to the Personal Data Protection Act
+of 10 May 2018 (Journal of Laws 2018, item 1000) and in agreement with
+Regulation (EU) 2016/679 of the European Parliament and of the Council of 27
+April 2016 on the protection of natural persons with regard to the processing
+of personal data and on the free movement of such data, and repealing Directive
+95/46/EC (General Data Protection Regulation).\\
+}
+{
+  \footnotesize 
+  \textbf{Wyrażam} zgodę na przetwarzanie moich danych osobowych dla potrzebniezbędnych do realizacji procesu rekrutacji zgodnie z RozporządzeniemParlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. wsprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i wsprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE(RODO).
+}
 
 \clearpage
 \end{document}
